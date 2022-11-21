@@ -1,0 +1,110 @@
+{
+    "os": "Linux-5.15.0-53-generic-x86_64-with-glibc2.35",
+    "python": "3.10.6",
+    "heartbeatAt": "2022-11-21T15:42:15.931174",
+    "startedAt": "2022-11-21T15:42:15.043057",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "murali-Inspiron-14-5425",
+    "username": "murali",
+    "executable": "/home/murali/.pyenv/versions/3.10.6/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 1927.3728125000002,
+        "min": 400.0,
+        "max": 4546.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4546.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4546.0
+        },
+        {
+            "current": 4236.196,
+            "min": 400.0,
+            "max": 4546.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4546.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4546.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4546.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4546.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4546.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4546.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4546.0
+        },
+        {
+            "current": 4237.002,
+            "min": 400.0,
+            "max": 4546.0
+        },
+        {
+            "current": 4161.934,
+            "min": 400.0,
+            "max": 4546.0
+        },
+        {
+            "current": 3977.346,
+            "min": 400.0,
+            "max": 4546.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4546.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4546.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4546.0
+        }
+    ],
+    "disk": {
+        "total": 42.12885665893555,
+        "used": 10.916221618652344
+    },
+    "memory": {
+        "total": 14.983390808105469
+    }
+}

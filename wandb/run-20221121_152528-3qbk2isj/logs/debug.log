@@ -1,0 +1,76 @@
+2022-11-21 15:25:28,787 INFO    MainThread:15932 [wandb_setup.py:_flush():68] Configure stats pid to 15932
+2022-11-21 15:25:28,788 INFO    MainThread:15932 [wandb_setup.py:_flush():68] Loading settings from /home/murali/.config/wandb/settings
+2022-11-21 15:25:28,788 INFO    MainThread:15932 [wandb_setup.py:_flush():68] Loading settings from /home/murali/AIM-AnimationSoftwareWorkShop/week-3lec/wandb/settings
+2022-11-21 15:25:28,788 INFO    MainThread:15932 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-11-21 15:25:28,788 INFO    MainThread:15932 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-11-21 15:25:28,788 INFO    MainThread:15932 [wandb_init.py:_log_setup():476] Logging user logs to /home/murali/AIM-AnimationSoftwareWorkShop/week-3lec/wandb/run-20221121_152528-3qbk2isj/logs/debug.log
+2022-11-21 15:25:28,788 INFO    MainThread:15932 [wandb_init.py:_log_setup():477] Logging internal logs to /home/murali/AIM-AnimationSoftwareWorkShop/week-3lec/wandb/run-20221121_152528-3qbk2isj/logs/debug-internal.log
+2022-11-21 15:25:28,788 INFO    MainThread:15932 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fa2b7fbbc40>
+2022-11-21 15:25:28,788 INFO    MainThread:15932 [wandb_init.py:init():516] calling init triggers
+2022-11-21 15:25:28,788 INFO    MainThread:15932 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-11-21 15:25:28,788 INFO    MainThread:15932 [wandb_init.py:init():569] starting backend
+2022-11-21 15:25:28,788 INFO    MainThread:15932 [wandb_init.py:init():573] setting up manager
+2022-11-21 15:25:28,796 ERROR   MainThread:15932 [wandb_init.py:init():1105] error
+Traceback (most recent call last):
+  File "/home/murali/.pyenv/versions/3.10.6/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1078, in init
+    run = wi.init()
+  File "/home/murali/.pyenv/versions/3.10.6/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 574, in init
+    manager._inform_init(settings=self.settings, run_id=self.settings.run_id)
+  File "/home/murali/.pyenv/versions/3.10.6/lib/python3.10/site-packages/wandb/sdk/wandb_manager.py", line 170, in _inform_init
+    svc_iface._svc_inform_init(settings=settings, run_id=run_id)
+  File "/home/murali/.pyenv/versions/3.10.6/lib/python3.10/site-packages/wandb/sdk/service/service_sock.py", line 35, in _svc_inform_init
+    _pbmap_apply_dict(inform_init._settings_map, settings_dict)
+  File "/home/murali/.pyenv/versions/3.10.6/lib/python3.10/site-packages/wandb/sdk/service/service_base.py", line 45, in _pbmap_apply_dict
+    raise Exception("unsupported type")
+Exception: unsupported type
+2022-11-21 15:26:05,138 INFO    MainThread:15932 [wandb_setup.py:_flush():68] Configure stats pid to 15932
+2022-11-21 15:26:05,138 INFO    MainThread:15932 [wandb_setup.py:_flush():68] Loading settings from /home/murali/.config/wandb/settings
+2022-11-21 15:26:05,138 INFO    MainThread:15932 [wandb_setup.py:_flush():68] Loading settings from /home/murali/AIM-AnimationSoftwareWorkShop/week-3lec/wandb/settings
+2022-11-21 15:26:05,138 INFO    MainThread:15932 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-11-21 15:26:05,138 INFO    MainThread:15932 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-11-21 15:26:05,138 INFO    MainThread:15932 [wandb_init.py:_log_setup():476] Logging user logs to /home/murali/AIM-AnimationSoftwareWorkShop/week-3lec/wandb/run-20221121_152605-3mq5tdjs/logs/debug.log
+2022-11-21 15:26:05,139 INFO    MainThread:15932 [wandb_init.py:_log_setup():477] Logging internal logs to /home/murali/AIM-AnimationSoftwareWorkShop/week-3lec/wandb/run-20221121_152605-3mq5tdjs/logs/debug-internal.log
+2022-11-21 15:26:05,139 INFO    MainThread:15932 [wandb_init.py:init():516] calling init triggers
+2022-11-21 15:26:05,139 INFO    MainThread:15932 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-11-21 15:26:05,139 INFO    MainThread:15932 [wandb_init.py:init():569] starting backend
+2022-11-21 15:26:05,139 INFO    MainThread:15932 [wandb_init.py:init():573] setting up manager
+2022-11-21 15:26:05,143 ERROR   MainThread:15932 [wandb_init.py:init():1105] error
+Traceback (most recent call last):
+  File "/home/murali/.pyenv/versions/3.10.6/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1078, in init
+    run = wi.init()
+  File "/home/murali/.pyenv/versions/3.10.6/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 574, in init
+    manager._inform_init(settings=self.settings, run_id=self.settings.run_id)
+  File "/home/murali/.pyenv/versions/3.10.6/lib/python3.10/site-packages/wandb/sdk/wandb_manager.py", line 170, in _inform_init
+    svc_iface._svc_inform_init(settings=settings, run_id=run_id)
+  File "/home/murali/.pyenv/versions/3.10.6/lib/python3.10/site-packages/wandb/sdk/service/service_sock.py", line 35, in _svc_inform_init
+    _pbmap_apply_dict(inform_init._settings_map, settings_dict)
+  File "/home/murali/.pyenv/versions/3.10.6/lib/python3.10/site-packages/wandb/sdk/service/service_base.py", line 45, in _pbmap_apply_dict
+    raise Exception("unsupported type")
+Exception: unsupported type
+2022-11-21 15:29:56,546 INFO    MainThread:15932 [wandb_setup.py:_flush():68] Configure stats pid to 15932
+2022-11-21 15:29:56,546 INFO    MainThread:15932 [wandb_setup.py:_flush():68] Loading settings from /home/murali/.config/wandb/settings
+2022-11-21 15:29:56,546 INFO    MainThread:15932 [wandb_setup.py:_flush():68] Loading settings from /home/murali/AIM-AnimationSoftwareWorkShop/week-3lec/wandb/settings
+2022-11-21 15:29:56,546 INFO    MainThread:15932 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-11-21 15:29:56,546 INFO    MainThread:15932 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-11-21 15:29:56,546 INFO    MainThread:15932 [wandb_init.py:_log_setup():476] Logging user logs to /home/murali/AIM-AnimationSoftwareWorkShop/week-3lec/wandb/run-20221121_152956-2wxnm60i/logs/debug.log
+2022-11-21 15:29:56,547 INFO    MainThread:15932 [wandb_init.py:_log_setup():477] Logging internal logs to /home/murali/AIM-AnimationSoftwareWorkShop/week-3lec/wandb/run-20221121_152956-2wxnm60i/logs/debug-internal.log
+2022-11-21 15:29:56,547 INFO    MainThread:15932 [wandb_init.py:init():516] calling init triggers
+2022-11-21 15:29:56,547 INFO    MainThread:15932 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-11-21 15:29:56,547 INFO    MainThread:15932 [wandb_init.py:init():569] starting backend
+2022-11-21 15:29:56,547 INFO    MainThread:15932 [wandb_init.py:init():573] setting up manager
+2022-11-21 15:29:56,550 ERROR   MainThread:15932 [wandb_init.py:init():1105] error
+Traceback (most recent call last):
+  File "/home/murali/.pyenv/versions/3.10.6/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1078, in init
+    run = wi.init()
+  File "/home/murali/.pyenv/versions/3.10.6/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 574, in init
+    manager._inform_init(settings=self.settings, run_id=self.settings.run_id)
+  File "/home/murali/.pyenv/versions/3.10.6/lib/python3.10/site-packages/wandb/sdk/wandb_manager.py", line 170, in _inform_init
+    svc_iface._svc_inform_init(settings=settings, run_id=run_id)
+  File "/home/murali/.pyenv/versions/3.10.6/lib/python3.10/site-packages/wandb/sdk/service/service_sock.py", line 35, in _svc_inform_init
+    _pbmap_apply_dict(inform_init._settings_map, settings_dict)
+  File "/home/murali/.pyenv/versions/3.10.6/lib/python3.10/site-packages/wandb/sdk/service/service_base.py", line 45, in _pbmap_apply_dict
+    raise Exception("unsupported type")
+Exception: unsupported type
